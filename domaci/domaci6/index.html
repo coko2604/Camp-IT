@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62a5e29ec9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="mainDiv">
+            <form >
+            <button type="submit" formaction="http://127.0.0.1:5500/cas13/index.html" class="x"><i class="fa-solid fa-xmark"></i></button>
+            </form>
+            <div class="nav">
+                <div class="payForm">
+                    <h1>Payment Form</h1>
+                </div>
+            </div>
+
+            <div class="account">
+                <form action="action">
+                    <label for="Account">Account</label><br>
+                    <div class="first">
+                        <div class="fullname">
+                            <div class="icon">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="inputt">
+                                <input type="text" name="Full Name" class="name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="nickName">
+                            <div class="icon">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="inputt">
+                                <input type="text" name="Nick Name" class="name" placeholder="Nick Name">
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="email">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="inputt">
+                            <input type="email" name="Email Adress" id="email" placeholder="Email Adress">
+                    </div>   
+                </form>
+            </div><br><br>
+
+            <div class="date">
+                <div class="dob">
+                    <label for="dob">Date of Birth</label><br>
+                    <div class="num">
+                        <input type="number" class="dd" placeholder="DD">
+                        <input type="number" class="dd" placeholder="MM">
+                        <input type="number" class="dd" placeholder="YYYY">
+                    </div>
+                </div>
+                <div class="gender">
+                    <label for="gender">Gender</label><br>
+                    <div class="gdr">
+
+                        <input type='radio' id='male' checked='checked' name='radio'>
+                        <label for='male'>Male</label>
+                        
+                        <input type='radio' id='female' name='radio'>
+                        <label for='female'>Female</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pay">
+                <label for="Payment">Payment Details</label>
+                <form action="actionn">
+                <div class="ccpp">
+
+                    <input type='radio' id='cc' checked='checked' name='radio'>
+                    <label for='cc'>Credit Card</label>
+
+                    <input type='radio' id='pp' name='radio'>
+                    <label for='pp'>Paypal</label>
+                </div> 
+                </form>
+                <div class="cardNumber"><br>
+                    <div class="icon">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                    <div class="inputt">
+                        <input type="number" name="Card Number" class="name" placeholder="Card Number">
+                    </div>
+                </div>
+
+                <div class="cvc">
+                    <div class="vcv">
+                        <div class="icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <div class="inputt">
+                            <input type="text" name="Full Name" class="name" placeholder="CVC">
+                        </div>
+                    </div>
+                       <div class="dn">
+                        <div class="icon">
+                            <i class="fa-solid fa-calendar"></i>
+                        </div>
+                            <input type="month" class="dd" placeholder="DD">
+
+                       </div> 
+                    </div>
+                </div><br><br><br>
+
+                <div class="payNow">
+                    <button>PAY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
