@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 75px;
+    background-color: #4d148c;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+}
+
+.logo{
+    height: 75px;
+    width: 25%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    height: 45px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.mid{
+    height: 75px;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid select{
+    border: none;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.mid option{
+    color: black;
+}
+
+.mid select:hover{
+    opacity: 0.9;
+    color: orangered;
+}
+
+.right{
+    height: 75px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right button{
+    border: none;
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.right button:hover{
+    opacity: 0.9;
+    color: orangered;
+}
+
+.right i{
+    color: white;
+    font-size: 35px ;
+    cursor: pointer;
+}
+
+.right i:hover{
+    opacity: 0.9;
+    color: orangered;
+}
+
+.fa-circle-user{
+    margin-right: 5px;
+}
+
+.mainDiv{
+    width: 100%;
+    height: 100vh;
+    background-image: url(fedex-express-sunrise-5j04yzmfn9jonp8r.jpg);
+    display: flex;
+    flex-direction: column;
+    background-size: auto;
+}
+
+.text{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text span{
+    font-size: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mainMid{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.midLeft{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #ced4da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.midMid{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #ced4da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.midRight{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #ced4da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.midRight:hover{
+    opacity: 1;
+    background-color: #4d148c;
+    width: 350px;
+    height: 350px;
+    color: orangered;
+    border: none;
+}
+
+.midLeft:hover{
+    opacity: 1;
+    background-color: #4d148c;
+    width: 350px;
+    height: 350px;
+    color: orangered;
+    border: none;
+}
+
+.midMid:hover{
+    opacity: 1;
+    background-color: #4d148c;
+    width: 350px;
+    height: 350px;
+    color: orangered;
+    border: none;
+}
+
+.mainMid i{
+    font-size: 80px;
+}
+
+.mainMid span{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bot{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.track{
+    width: 1000px;
+    height: 120px;
+    background-color: orangered;
+    display: flex;
+}
+
+.track input{
+    width: 720px;
+    height: 114px;
+    color: black;
+    font-size: 25px;
+    border-color: #ced4da;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.track button{
+    height: 100%;
+    width: 25%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+}
+
+.track button:hover{
+    opacity: 0.3;
+}
+
+.bot span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -568px;
+}
